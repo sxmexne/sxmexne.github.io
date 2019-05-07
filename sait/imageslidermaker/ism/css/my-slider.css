@@ -23,67 +23,6 @@
 @-webkit-keyframes ism-loading {
   50% { left: 120px; }
 }
-section{
-  background: url(../img/fen.jpg) no-repeat center top / cover;
-  height: 110vh;
-}
-.container{
-  width: 930px;
-  margin: 0 auto;
-}
-.logo{
-  float: left;
-
-}
-
-.menu{
-
-  float: left;
-  padding: 0;
-  margin: 0;
-  display: block;
- 
-  width: 100%;
-  
-}
-.menu ul{
-  position: relative;
-  letter-spacing: normal;;
-}
-.menu ul ul{
-  display: none;
-  position: absolute;
-}
-.menu li{
-  float: left;
-  display: block;
-  margin-right: 41px;
-}
-.menu  a{
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #DAA520;
-}
-.menu ul li{
-  display: inline-block;
-}
-.menu li:hover ul{
-  display: block;
-}
-.menu li:hover li{
-  display: block;
-}
-.ism-slider .ism-slides {
-  list-style: none;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  padding: 0 !important;
-  margin-top: 0;
-  margin-bottom: 0;
-  z-index: 1;
-}
 
 .ism-slider li.ism-slide {
   height: 100%;
