@@ -1,0 +1,172 @@
+﻿body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: url(../img/first-bg1.jpg) no-repeat center top / cover;
+	height: 100vh;
+
+}
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	margin-top:  41px;
+}
+nav{
+	float:left;
+	margin-top:45px; 
+}
+.menu{
+
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: block;
+	position: fixed;
+	width: 100%;
+	display: none;
+}
+.menu ul{
+	
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.menu ul ul{
+	display: none;
+	position: absolute;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu  a{
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #DAA520
+
+}
+
+.menu ul li{
+	display: inline-block;
+}
+.menu li:hover ul{
+	display: block;
+}
+.menu li:hover li{
+	display: block;
+}
+.titles__first{
+font-size: 40px;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+margin-top: 180px;
+}
+h1{
+font-size: 75px;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+margin: 15px;
+}
+
+.title{
+padding-top: 115px;
+}
+.title h2{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+.title p{
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+
+}
+.services{
+margin-top: 20px;
+}
+.services__item{
+	width: 270px;
+	float:left;
+	text-align: center;
+}
+.servise__item img{
+
+}
+.services__item h3{
+font-size: 18px;
+margin-bottom: 5px;
+}
+.services__item p{
+color: #777777;
+font-size: 14px
+line-height:1.55em;
+}
+.services__item:nth-child(2){
+	margin-left:60px; 
+
+}
+#Services{
+	padding-bottom: 120px;
+}
+#portfolio{
+	background :#f7f7f7;
+	padding-bottom: 120px;
+}
+.works{
+	margin-top: 70px;
+}
+.works img{
+	float: left;
+}
+.works img:nth-child(2){
+	margin-left: 31px;
+}
+.works img:last-child{
+	float: right;
+}
+#vidos{
+	background: #A9A9A9;
+	text-align: center;
+	padding: 100px;
+}
+#igroki{
+	text-align: center;
+	padding: 10px;
+}
+.works1{
+	margin-top: 0px;
+}
+.works1 img{
+	float: left;
+}
+.works1 img:nth-child(2){
+	margin-left: 170px;
+}
+.works1 img:last-child{
+	float: right;
+}
+#contacts{
+background: #C0C0C0;
+}

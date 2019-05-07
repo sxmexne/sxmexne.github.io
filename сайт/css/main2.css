@@ -1,0 +1,125 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: url(../img/mirana.jpg) no-repeat center top / cover;
+	height: 100vh;
+
+}
+section{
+	background: url(../img/fen.jpg) no-repeat center top / cover;
+	height: 110vh;
+}
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	margin-top:  41px;
+}
+nav{
+	float:left;
+	margin-top:45px; 
+}
+.menu{
+
+	float: left;
+	padding: 0;
+	margin: 0;
+	display: block;
+	position: fixed;
+	width: 100%;
+	display: none;
+}
+.menu ul{
+	position: relative;
+	letter-spacing: normal;;
+}
+.menu ul ul{
+	display: none;
+	position: absolute;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu  a{
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #DAA520;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu li:hover ul{
+	display: block;
+}
+.menu li:hover li{
+	display: block;
+}
+.titles__first{
+font-size: 40px;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+margin-top: 180px;
+}
+h1{
+font-size: 75px;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+margin: 15px;
+}
+
+.services{
+margin-top: 20px;
+}
+.services__item{
+	width: 270px;
+	float:left;
+	text-align: center;
+}
+.servise__item img{
+
+}
+.services__item h3{
+font-size: 18px;
+margin-bottom: 5px;
+}
+.services__item p{
+color: #00FF00;
+font-size: 14px
+line-height:1.55em;
+}
+.services__item:nth-child(2){
+	margin-left:60px; 
+
+}
+.title{
+padding-top: 115px;
+}
+.title h2{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+#contacts{
+background: #C0C0C0;
+}
